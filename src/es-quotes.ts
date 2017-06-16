@@ -24,7 +24,9 @@ const supportedLanguages = [
     'javascriptreact',
     'typescript',
     'typescriptreact',
-    'vue'
+    'vue',
+    'ruby',
+    'erb'
 ];
 
 export function findActiveStringTarget(targets: StringTarget[], selection: Range): StringBodyTarget {
